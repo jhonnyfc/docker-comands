@@ -110,7 +110,7 @@ $ docker rmi imageName || idimage
 $ docker rm myContName || idContendor
 ````
 
-### Aspcoa un id para subir la imagen a otro repo que no sea docker hub
+### Asocia un id/url para subir una imagen a un repo externo such as aws, para docker hub no hace falta
 ````
 $ docker tag myAppName:image añadimoseURLTAgPArPoderSubirLaImagen
 ````
